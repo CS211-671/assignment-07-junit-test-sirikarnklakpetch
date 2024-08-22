@@ -29,4 +29,10 @@ class StudentTest {
         assertEquals("C",s1.grade());
     }
 
+    @Test
+    void testChangeName() {
+        s1.changeName("Aomsin");
+        assertEquals("Aomsin",s1.getName());
+    }
+
 }
