@@ -23,4 +23,10 @@ class UserTest {
         boolean actual = user.validatePassword("plain-p@ssw0rd");
         assertTrue(actual);
     }
+
+    //    @Test
+//    public void testSetPassword() {
+//        User user = new User("user01", "plain-p@ssw0rd1");
+//        user.setPassword("new-p@ssw0rd");
+//        assertEquals(BCrypt.verifyer().verify(password.toCharArray(), this.password) user.getPassword());
 }
